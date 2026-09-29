@@ -1,0 +1,34 @@
+{
+  "app": {
+    "name": "LMS"
+  },
+  "common": {
+    "loading": "Đang tải..."
+  },
+  "nav": {
+    "dashboard": "Tổng quan",
+    "logout": "Đăng xuất"
+  },
+  "role": {
+    "Student": "Sinh viên",
+    "Teacher": "Giảng viên",
+    "Admin": "Quản trị"
+  },
+  "login": {
+    "title": "Đăng nhập",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "submit": "Đăng nhập",
+    "submitting": "Đang đăng nhập...",
+    "invalid": "Email hoặc mật khẩu không đúng.",
+    "demoHint": "Tài khoản demo: student@lms.dev / teacher@lms.dev / admin@lms.dev — mật khẩu Lms@12345"
+  },
+  "dashboard": {
+    "welcome": "Xin chào, {{name}}"
+  },
+  "errors": {
+    "forbidden": "Bạn không có quyền truy cập trang này.",
+    "notFound": "Không tìm thấy trang.",
+    "backHome": "Về trang chủ"
+  }
+}

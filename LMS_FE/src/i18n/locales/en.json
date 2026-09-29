@@ -1,0 +1,34 @@
+{
+  "app": {
+    "name": "LMS"
+  },
+  "common": {
+    "loading": "Loading..."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "logout": "Log out"
+  },
+  "role": {
+    "Student": "Student",
+    "Teacher": "Teacher",
+    "Admin": "Admin"
+  },
+  "login": {
+    "title": "Sign in",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign in",
+    "submitting": "Signing in...",
+    "invalid": "Incorrect email or password.",
+    "demoHint": "Demo accounts: student@lms.dev / teacher@lms.dev / admin@lms.dev — password Lms@12345"
+  },
+  "dashboard": {
+    "welcome": "Hello, {{name}}"
+  },
+  "errors": {
+    "forbidden": "You don't have permission to view this page.",
+    "notFound": "Page not found.",
+    "backHome": "Back to home"
+  }
+}
