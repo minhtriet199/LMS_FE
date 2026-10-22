@@ -327,10 +327,12 @@ select:focus {
   }
 
   .app-shell {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
   }
 
   .sidebar {
+    min-width: 0;
     padding: 0.75rem;
   }
 
