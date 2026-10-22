@@ -1,13 +1,20 @@
 {
   "app": {
-    "name": "LMS"
+    "name": "AI LMS"
   },
   "common": {
     "loading": "Loading..."
   },
   "nav": {
-    "dashboard": "Dashboard",
-    "logout": "Log out"
+    "dashboard": "Home",
+    "logout": "Log out",
+    "courses": "Courses",
+    "learningPath": "Learning path",
+    "schedule": "Schedule",
+    "grades": "Grades",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "comingSoon": "Coming soon"
   },
   "role": {
     "Student": "Student",
@@ -21,10 +28,15 @@
     "submit": "Sign in",
     "submitting": "Signing in...",
     "invalid": "Incorrect email or password.",
-    "demoHint": "Demo accounts: student@lms.dev / teacher@lms.dev / admin@lms.dev — password Lms@12345"
+    "demoHint": "Demo accounts: student@lms.dev / teacher@lms.dev / admin@lms.dev — password Lms@12345",
+    "subtitle": "Welcome back!",
+    "tagline1": "Learn smarter",
+    "tagline2": "Build your future"
   },
   "dashboard": {
-    "welcome": "Hello, {{name}}"
+    "welcome": "Hello, {{name}}",
+    "subtitle": "Have a productive day of learning!",
+    "empty": "No data yet. Stats cards will show up here."
   },
   "errors": {
     "forbidden": "You don't have permission to view this page.",

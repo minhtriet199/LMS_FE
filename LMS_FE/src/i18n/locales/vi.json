@@ -1,13 +1,20 @@
 {
   "app": {
-    "name": "LMS"
+    "name": "AI LMS"
   },
   "common": {
     "loading": "Đang tải..."
   },
   "nav": {
-    "dashboard": "Tổng quan",
-    "logout": "Đăng xuất"
+    "dashboard": "Trang chủ",
+    "logout": "Đăng xuất",
+    "courses": "Khóa học",
+    "learningPath": "Lộ trình học",
+    "schedule": "Lịch học",
+    "grades": "Điểm số",
+    "notifications": "Thông báo",
+    "profile": "Hồ sơ cá nhân",
+    "comingSoon": "Sắp có"
   },
   "role": {
     "Student": "Sinh viên",
@@ -21,10 +28,15 @@
     "submit": "Đăng nhập",
     "submitting": "Đang đăng nhập...",
     "invalid": "Email hoặc mật khẩu không đúng.",
-    "demoHint": "Tài khoản demo: student@lms.dev / teacher@lms.dev / admin@lms.dev — mật khẩu Lms@12345"
+    "demoHint": "Tài khoản demo: student@lms.dev / teacher@lms.dev / admin@lms.dev — mật khẩu Lms@12345",
+    "subtitle": "Chào mừng bạn quay trở lại!",
+    "tagline1": "Học thông minh",
+    "tagline2": "Kiến tạo tương lai"
   },
   "dashboard": {
-    "welcome": "Xin chào, {{name}}"
+    "welcome": "Xin chào, {{name}}",
+    "subtitle": "Chúc bạn một ngày học tập hiệu quả!",
+    "empty": "Chưa có dữ liệu. Các thẻ thống kê sẽ hiển thị ở đây."
   },
   "errors": {
     "forbidden": "Bạn không có quyền truy cập trang này.",

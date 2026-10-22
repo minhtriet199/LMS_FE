@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next'
-import { NavLink, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/useAuth'
 import LanguageSwitcher from './LanguageSwitcher'
 
+// Thanh trên cùng: đổi ngôn ngữ, thông tin user, đăng xuất.
 export default function Navbar() {
   const { t } = useTranslation()
   const { user, logout } = useAuth()
@@ -14,24 +15,20 @@ export default function Navbar() {
   }
 
   return (
-    <header className="navbar">
-      <div className="navbar__inner container">
-        <span className="navbar__brand">{t('app.name')}</span>
-        <nav className="navbar__links">
-          <NavLink to="/dashboard">{t('nav.dashboard')}</NavLink>
-        </nav>
-        <div className="navbar__right">
-          <LanguageSwitcher />
-          {user && (
-            <span className="navbar__user">
-              {user.name} · {t(`role.${user.role}`)}
-            </span>
-          )}
-          <button type="button" className="btn btn--ghost" onClick={handleLogout}>
-            {t('nav.logout')}
-          </button>
+    <header className="topbar">
+      <LanguageSwitcher />
+      {user && (
+        <div className="topbar__user">
+          <span className="avatar">{user.name.trim().split(/\s+/).pop()?.[0] ?? '?'}</span>
+          <span>
+            <strong>{user.name}</strong>
+            <span className="muted small">{t(`role.${user.role}`)}</span>
+          </span>
         </div>
-      </div>
+      )}
+      <button type="button" className="btn btn--ghost" onClick={handleLogout}>
+        {t('nav.logout')}
+      </button>
     </header>
   )
 }
